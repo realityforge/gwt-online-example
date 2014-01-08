@@ -10,4 +10,4 @@ artifacts:
   javax_validation: javax.validation:validation-api:jar:1.0.0.GA
   javax_validation_sources: javax.validation:validation-api:jar:sources:1.0.0.GA
 
-  gwt_online: org.realityforge.gwt.online:gwt-online:jar:e418836
+  gwt_online: org.realityforge.gwt.online:gwt-online:jar:0.1
