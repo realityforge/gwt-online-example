@@ -14,7 +14,7 @@ define 'gwt-online-example' do
                       :java_args => ["-Xms512M", "-Xmx1024M", "-XX:PermSize=128M", "-XX:MaxPermSize=256M"],
                       :draft_compile => (ENV["FAST_GWT"] == 'true'),
                       :dependencies => [:javax_validation, :javax_validation_sources] + project.compile.dependencies)
-  gwt_dir = gwt(["org.realityforge.gwt.appcache.online.Example"],
+  gwt_dir = gwt(["org.realityforge.gwt.online.example.Example"],
                 :java_args => ["-Xms512M", "-Xmx1024M", "-XX:PermSize=128M", "-XX:MaxPermSize=256M"],
                 :draft_compile => (ENV["FAST_GWT"] == 'true'),
                 :dependencies => [:javax_validation, :javax_validation_sources] + project.compile.dependencies)
