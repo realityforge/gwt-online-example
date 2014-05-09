@@ -1,5 +1,5 @@
 require 'buildr/git_auto_version'
-require 'buildr/gpg'
+require 'buildr/gwt'
 
 desc "A simple application demonstrating the use of the gwt-online library"
 define 'gwt-online-example' do
